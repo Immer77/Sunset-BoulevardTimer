@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunset Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <header>
+            <a href="#"><img src="images/sunsetlogo1.svg" class="logo"></a>
+            <div class="toggle" onclick="toggleMenu()"></div>
+            <ul class="navigation">
+                <li><b href="hjem.html">HJEM</b></li>
+                <li><a href="kontakt.html">KONTAKT</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="TimerBox">
+                <button onclick="startTimer(this)" type="button" class="button" id="buttonIceberg">Iceberg<br><br><span>00:00</span></button>
+                <button onclick="startTimer(this)" type="button" class="button" id="buttonOnion">Løg<br><br><span>00:00</span></button>
+                <button onclick="startTimer(this)" type="button" class="button" id="buttonCheese">Ost<br><br><span>00:00</span></button>
+                <button onclick="startTimer(this)" type="button" class="button" id="buttonRedOnion">Rødløg<br><br><span>00:00</span></button>
+            </div>
+            <div class="TimerBox">
+                <button onclick="startTimer(this)" type="button" class="button" id="buttonSalatmix">Salatmix<br><br><span>00:00</span></button>
+                <button onclick="startTimer(this)" type="button" class="button" id="buttonTomato">Tomat<br><br><span>00:00</span></button>
+                <button onclick="startTimer(this)" type="button" class="button" id="buttonCucumber">Agurk<br><br><span>00:00</span></button>
+                <button onclick="startTimer(this)" type="button" class="button" id="buttonPickles">Pickles<br><br><span>00:00</span></button>
+            </div>
+        </div>
+    </section>
+    <script>
+    </script>          
+    <script src="countdownTimer.js"></script> 
+</body>
+</html>
